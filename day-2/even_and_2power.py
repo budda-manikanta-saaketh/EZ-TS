@@ -1,6 +1,6 @@
 """Create an array (1d), it should contain number b/w 10 to 30, in this array extract and print
 I)	Even numbers
-II)	power values"""
+II)	power values """
 #using bitwise 
 r=list(map(int,input("enter range:").split(" ")))
 n=int(input("enter the number of elements:"))
