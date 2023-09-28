@@ -1,4 +1,4 @@
-"""Swajith is having 1 lakh in his bank Account; rate of interest is 12% per annum. In the 5th month Swajith is withdrawing 25000 rupees in order to buy gift for his loved one. In the 9th month 10000 is being deposited in his account by his second loved one. End of the financial year how much Swajith is having in his account ."""
+"""Swajith is having 1 lakh in his bank Account; rate of interest is 12% per annum. In the 5th month Swajith is withdrawing 25000 rupees in order to buy gift for his loved one. In the 9th month 10000 is being deposited in his account by his second loved one. End of the financial year how much Swajith is having in his account."""
 #user input
 amount = input("enter the bank balance:")
 ch=0

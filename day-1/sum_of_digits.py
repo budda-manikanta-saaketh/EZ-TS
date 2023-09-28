@@ -1,11 +1,11 @@
 #using while loop
-"""n=int(input("enter a number:"))
+n=int(input("enter a number:"))
 sum=0
 while(n!=0):
     rem=n%10
     sum+=rem
     n//=10
-print("the sum is",sum)"""
+print("the sum is",sum)
 #using string
 """n=input("enter a number:")
 l=list(n)
