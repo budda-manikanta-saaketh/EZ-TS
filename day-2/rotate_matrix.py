@@ -18,7 +18,7 @@ for i in range(n):
 
 #second procedure
 
-"""li=[]
+li=[]
 li2=[]
 n=int(input("enter no of rows:"))
 c=int(input("enter no of coloums:"))
@@ -36,4 +36,4 @@ for i in range(len(li)):
 for i in range(3):
     li2[i].reverse()
 for i in range(3):
-    print(li2[i])"""
+    print(li2[i])
