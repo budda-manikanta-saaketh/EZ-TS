@@ -1,4 +1,4 @@
-#transpose of a matrix
+#transpose of a matrix.
 li=[]
 li2=[[0,0,0] for i in range(3)]
 n=int(input("enter no of rows:"))

@@ -1,3 +1,4 @@
+#sum of array elements
 def soe(li):
     s=0
     for i in li:

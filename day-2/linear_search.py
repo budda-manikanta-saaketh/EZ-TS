@@ -1,3 +1,4 @@
+#linear search of elements
 def find(li,num):
     f=0
     for i in li:
