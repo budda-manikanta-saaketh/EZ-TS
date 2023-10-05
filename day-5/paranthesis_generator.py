@@ -1,24 +1,15 @@
-#write python program to generate all the possible balanced paranthesis from this list of parathesis para=["(",")","{","}","[","]"] each element should be only used once
-para=["(",")","{","}","[","]"]
-balanced=[]
-str=""
-for i in range(len(para)-1,-1,-1):
-    str=" "
-    for j in range(len(para)):
-        if i!=j:
-            if para[i]=='(':
-                if para[j]==')':
-                    str+=para[i]+para[j]
-            if para[i]=='{':
-                if para[j]=='}':
-                    str+=para[i]+para[j]
-            if para[i]=='[':
-                if para[j]==']':
-                    str+=para[i]+para[j]
-            balanced.append(str)
-print(balanced)
+def gen_par(n):
+    res=[]
+    def par(n,l,r,s):
+        if l<n:
+            par(n,l+1,r,s+"(")
+        if r<l:
+            par(n,l,r+1,s+")")
+        if l==n and r==n:
+            res.append(s)
+    par(n,0,0,"")
+    return res
 
-
-
-
-
+n=int(input("enter no of pairs you want:"))
+li=gen_par(n)
+print(li)
